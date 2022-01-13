@@ -63,7 +63,7 @@ function decideWinner(user, comp){
 function win() {
     userScore++;
     user.textContent = userScore;
-    userCheck.src = '/images/greencheck.png';
+    userCheck.src = 'images/greencheck.png';
     userCheck.style.visibility = 'visible';
     compCheck.style.visibility = 'hidden';
     output.textContent = 'You Win!'
@@ -71,7 +71,7 @@ function win() {
 function lose() {
     compScore++;
     comp.textContent = compScore;
-    compCheck.src = '/images/greencheck.png';
+    compCheck.src = 'images/greencheck.png';
     compCheck.style.visibility = 'visible';
     userCheck.style.visibility = 'hidden';
     output.textContent = 'You lose..'
