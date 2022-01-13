@@ -5,10 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Is Best</title>
-    <link rel='stylesheet' src='styles.css'>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     
+    <div class='title-container'>
+        <h1>First to 5 wins</h1>
+     </div>   
+     <div class=header>
+        <h2>Choose your weapon:</h2>
+    </div>
+    
+    
+    <div class='body-container'>
+        <div class='image-container'>
+            <button id="rock"><img src="images/rock.png"></button>
+            <button id="paper"><img src="images/paper.png"></button>
+            <button id="scissors"><img src="images/scissors.png"></button>
+        </div>
+    
+    
+        <div class='container'>
+            <h1 id='human'>Human</h1>
+            <h1 id='computer'>Comp.</h1>
+        </div>
+        
+        <div class='score-container'>
+            <span id='user-score'></span>
+            <span id='seperator'>:</span>
+            <span id='comp-score'></span>
+        </div>
+   
+
+        <div class='check-container'>
+            <img class='check' id="user-check" src="//:0">
+            <img class='check' id="comp-check" src="//:0">
+        </div>
+    </div>
+
+    
+    
+    <div class='output-container'>
+        <h1 id='output-statement'>It's a standoff</h1>
+    </div>
+
+    <div class='winner-container'>
+        <h1 id='winner-statement'>It's anyone's game!</h1>
+    </div>
+
 </body>
 </html>
+
+<script src="script.js"></script>
